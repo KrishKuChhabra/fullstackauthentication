@@ -52,7 +52,7 @@ export default function LoginPage() {
         value={user.email}
         onChange={(e) => setUser({ ...user, email: e.target.value })}
       />
-      <label htmlFor="password">Password</label>
+      <label htmlFor="password">Passwd</label>
       <input
         className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600  text-black"
         type="password"
